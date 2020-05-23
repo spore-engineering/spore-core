@@ -57,8 +57,8 @@ If you use this option, it is recommended to upgrade to this version as soon as 
 Reset Testnet
 -------------
 
-Testnet3 has been deprecated and replaced with Testnet4. The server port has been changed to 107050 however the RPC port remains
-the same (1108070).
+Testnet3 has been deprecated and replaced with Testnet4. The server port has been changed to 37835 however the RPC port remains
+the same (43535).
 
 Testnet faucets can be located at:
 - http://testnet.sporetools.com

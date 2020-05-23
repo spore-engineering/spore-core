@@ -51,10 +51,10 @@ is included in as separate release-notes.  This section describes the Spore-spec
 
 Protocol:
 - Scrypt Proof-of-Work instead of sha256d, however block hashes are sha256d for performance reasons.
-- Spore TCP port 108050 (instead of 8333)
-- RPC TCP port 108070 (instead of 8332)
-- Testnet TCP port 1108050 (instead of 18333)
-- Testnet RPC TCP port 1108070 (instead of 18332)
+- Spore TCP port 35835 (instead of 8333)
+- RPC TCP port 42835 (instead of 8332)
+- Testnet TCP port 135835 (instead of 18333)
+- Testnet RPC TCP port 43535 (instead of 18332)
 - 84 million coin limit  (instead of 21 million)
 - Magic 0xfbc0b6db       (instead of 0xf9beb4d9)
 - Target Block Time 2.5 minutes (instead of 10 minutes)

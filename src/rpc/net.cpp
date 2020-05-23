@@ -207,8 +207,8 @@ static UniValue addnode(const JSONRPCRequest& request)
             "1. \"node\"     (string, required) The node (see getpeerinfo for nodes)\n"
             "2. \"command\"  (string, required) 'add' to add a node to the list, 'remove' to remove a node from the list, 'onetry' to try a connection to the node once\n"
             "\nExamples:\n"
-            + HelpExampleCli("addnode", "\"192.168.0.6:108050\" \"onetry\"")
-            + HelpExampleRpc("addnode", "\"192.168.0.6:108050\", \"onetry\"")
+            + HelpExampleCli("addnode", "\"192.168.0.6:35835\" \"onetry\"")
+            + HelpExampleRpc("addnode", "\"192.168.0.6:35835\", \"onetry\"")
         );
 
     if(!g_connman)
@@ -296,7 +296,7 @@ static UniValue getaddednodeinfo(const JSONRPCRequest& request)
             "    \"connected\" : true|false,          (boolean) If connected\n"
             "    \"addresses\" : [                    (list of objects) Only when connected = true\n"
             "       {\n"
-            "         \"address\" : \"192.168.0.201:108050\",  (string) The spore server IP and port we're connected to\n"
+            "         \"address\" : \"192.168.0.201:35835\",  (string) The spore server IP and port we're connected to\n"
             "         \"connected\" : \"outbound\"           (string) connection, inbound or outbound\n"
             "       }\n"
             "     ]\n"
