@@ -90,8 +90,8 @@
         <translation>&amp;செய்தியை சரிசெய்...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Spore</source>
+        <translation>Spore</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -225,8 +225,8 @@
         <translation>நல்வரவு</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Spore</source>
+        <translation>Spore</translation>
     </message>
     <message>
         <source>Error</source>
@@ -712,8 +712,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin மையம்</translation>
+        <source>Spore Core</source>
+        <translation>Spore மையம்</translation>
     </message>
     <message>
         <source>Information</source>
